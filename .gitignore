@@ -1,0 +1,21 @@
+
+# Visual Studio and VS Code local files
+.vs/
+.vscode/
+
+# .NET build outputs
+**/bin/
+**/obj/
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.*.Local.json
+*.user
+*.suo
+
+# Operating system files
+.DS_Store
+Thumbs.db
